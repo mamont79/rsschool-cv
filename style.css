@@ -1,0 +1,42 @@
+.wrap {
+    background-color: rgb(195, 250, 252);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    width: 1000px;
+    text-align: left;
+    padding: 30px 5%;
+    margin: auto;
+    border-style: outset;
+}
+
+.list {
+    position: relative;
+    top: -230px;
+}
+
+.list_item {
+    margin-bottom: 25px;
+}
+
+.text {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.my_job {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.photo {
+    position: relative;
+    top: 30px;
+    right: 30px;
+    text-align: right;
+}
+
+.photo_size {
+    width: 200px;
+    height: 255px;
+}
