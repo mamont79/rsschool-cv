@@ -1,5 +1,5 @@
 1. **Pavel Dolgov**
-2. tel/viber/whatsapp: *+375(33)686-51-86*, e-mail: *dolgovpv.87@yandex.by*
+2. tel: *+48796329765*; viber/whatsapp: *+375(33)686-51-86*; e-mail: *dolgovpv.87@yandex.by*
 3. After 15 years of serching my own way I understood my dream is to start and improve my skills in IT. 
   * Students Teatre (2005-2012)
   * JSC Grodno Khimvolokno (2010-2015)
