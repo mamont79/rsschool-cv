@@ -11,59 +11,172 @@
 
 </head>
 
-<body>
-    <div class="wrap">
-        <div class="photo">
-            <img src="photo.jpg" alt="my photo" class="photo_size">
-        </div>
-        <ol class="list">
-            <li class="list_item">
-                <h1> Pavel Dolgov</h1>
-            </li>
+<body class="page-body">
+    <header>
+        <!-- <button class="burger">
+            <span class="burger__line"></span>
+          </button>-->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#about-me">About me</a></li>
+                <li class="nav__item"><a href="#skills">Skills</a></li>
+                <li class="nav__item"><a href="#strengths">Strengths</a></li>
+                <li class="nav__item"><a href="#summary">Summary</a></li>
+                <li class="nav__item"><a href="#contact">Contact</a></li>
+                <li class="nav__item"><a href="#code">Code</a></li>
+                <li class="nav__item"><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <li class="list_item">
-                <h2 class="text">You could always get contact with me:</h2>
-                <p class="text">tel +48769329765; /viber/whatsapp: +375(33)686-51-86</p>
-
-                <p class="text">e-mail: dolgovpv.87@yandex.by</p>
-                <p class="text">Also You could visit <a href="https://www.linkedin.com/in/павел-долгов-31a0296a/" class="text">My linkedin account</a></p>
-            </li>
-            <li class="list_item">
-                I graduated from high school in 2005. During next 15 years I was serching my own way. I've changed several specializations, and I understood that my interest in solving different tasks is my key for IT. My previous jobs were:
-                <ul>
-                    <li class="my_job">
-                        Students Teatre (2005-2012)
+    <main class="container">
+        <div class="left-side">
+            <figure class="photo-left-side">
+                <img src="./assets/img/photo.jpg" alt="photo Pavel Dalhou" width="400">
+            </figure>
+            <section class="contact" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <ul class="contact__list">
+                    <li class="contact__item">
+                        Discord: Pavel Dalhou(mamont79)#2254
                     </li>
-                    <li class="my_job">
-                        JSC Grodno Khimvolokno (2010-2015)
+                    <li class="contact__item">
+                        Email:<a href="mailto:petr9ra@yandex.ru" style="color: white">dolgovpv.87@yandex.com</a>
                     </li>
-                    <li class="my_job">
-                        Hand-mader, master of wood-portraits (2016-2019)
-                    </li>
-                    <li class="my_job">
-                        Math-Tutor (since 2012)
+                    <li class="contact__item">
+                        Address:
+                        <span>Gdansk, Poland</span>
                     </li>
                 </ul>
+            </section>
+            <section class="education" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="education__list">
+                    <li class="education__item">
+                        2005-2010 Grodno State Univercity (GRSU) - (Economics-Finance)
+                    </li>
+                    <li class="education__item">
+                        2021 UDEMY - Yassin Marko - Python for beginners
+                    </li>
+                    <li class="education__item">
+                        2021 COURSERA - Duke University - Introduction to Machine Learning
+                    </li>
+                    <li class="education__item">
+                        2022 STEPIC - Bioinformatics Institute - Programming on Python
+                    </li>
+                    <li class="education__item">
+                        2022 RS School - ML-INTRO-2022Q1 (DATA SCIENCE)
+                    </li>
+                </ul>
+            </section>
 
-            </li>
-            <li class="list_item">
-                <h3>HTML, CSS, JavaScript</h3>
-            </li>
-            <li class="list_item">
-                Some examples of my code would be added while I am stadying in RSSchool
-            </li>
-            <li class="list_item">
-                Junior Dev, student of RSSchool
-            </li>
-            <li class="list_item">
-                GrSU 2005-2010 (economist, specialization - finance)
-            </li>
-            <li class="list_item">
-                <h4>B2 (passed test in EPAM)</h4>
-            </li>
+        </div>
+        <div class="right-side">
 
-        </ol>
-    </div>
+            <section class="page-title" id="title">
+                <h1 class="main-title">Pavel Dalhou</h1>
+                <p>Front-End developer</p>
+            </section>
+
+            <section class="about-me" id="about-me">
+                <h2 class="section-title">About me</h2>
+                <p class="about-me-text">
+                    After graduating from the university in 2010 with a degree in finance, I worked for 5 years at Grodno Azot JSC. At the same time, I began to teach private lessons in mathematics.
+                </p>
+                <p class="about-me-text">
+                    I always try to learn something new, get new experiences. And since I love mathematics, I want to connect my future profession with IT.
+                </p>
+                <p class="about-me-text">
+                    I appreciate when I see results in my work. In particular, 90% of my students improved their grades in math. 95% - asked to enroll them for the next academic year. 93% successfully passed entrance examinations to universities.
+                </p>
+                <p class="about-me-text">
+                    For me, the main values are family and self-realization.
+                </p>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills__list">
+                    <li>Economics</li>
+                    <li>Finance</li>
+                    <li>Figma, Git</li>
+                    <li>HTML/HTML5, CSS3/SCSS</li>
+                    <li>JavaScript/ES6</li>
+                    <li>Nodejs basics</li>
+                    <li>Python</li>
+                    <li>Pandas, NumPy, MatPlotLib</li>
+                    <li>SQL, PostgreSQL</li>
+                    <li>English - B2. The results of my online testing from
+                        <a href="https://www.efset.org/cert/r1n16T" target="_blank"><img src="./assets/img/efset.svg" alt="EF Set" height="18"></a>
+                    </li>
+                </ul>
+            </section>
+            <section class="key-strengths" id="strengths">
+                <h2 class="section-title">Key strengths</h2>
+                <ul class="key-strengths__list">
+                    <li>Quick learner</li>
+                    <li>Goal-oriented</li>
+                    <li>Sociable</li>
+                    <li>Hardworking</li>
+                    <li>Responsible</li>
+                </ul>
+            </section>
+            <section class="code" id="code">
+                <h2 class="section-title">Code example</h2>
+                <div class="code-ex">
+                    <code>
+    def make_model(degree, alpha=0, penalty=None):<Br>
+    # linear regression<Br>
+    if alpha == 0:<Br>
+        regressor = LinearRegression()<Br>
+    # lasso regression",<Br>
+    elif penalty == 'L1':<Br>
+        regressor = Lasso(alpha=alpha, random_state=SEED, max_iter=50000)<Br>
+    # ridge regression",<Br>
+    elif penalty == 'L2':<Br>
+        regressor = Ridge(alpha=alpha, random_state=SEED, max_iter=50000) <Br>
+    
+            <Br>
+    return Pipeline([<Br>
+        ('pol', PolynomialFeatures(degree, include_bias=(degree == 0))),<Br>
+        ('sca', StandardScaler()),<Br>
+        ('reg', regressor)<Br>
+    ])<Br>
+        <Br>
+display(make_model(2))<Br>
+display(make_model(2, penalty='L1', alpha=0.1))<Br>
+display(make_model(2, penalty='L2', alpha=0.1))<Br>
+<Br>
+</code>
+                </div>
+
+                <a href="https://github.com/mamont79/04_Ov_Reg/blob/main/overfitting_regularization.ipynb" class="code-adr">Full work You can find here</a>
+
+
+            </section>
+
+
+            <section class="summary" id="summary">
+                <h2 class="section-title">Summary</h2>
+
+                <p class="summary-text">Attentive - Quick learner - Creative Private math teacher, With 10 years of experience in the field of economics (finance). </p>
+
+
+            </section>
+
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <a class="footer__github" href="https://github.com/mamont79" target="_blank">
+            <img src="./assets/img/github.png" alt="github" width="20" height="20"> My GitHub
+        </a>
+        <p class="footer__year">2022-2023</p>
+        <a class="footer__rsschool" href="https://rs.school/js/" target="_blank">
+            <img src="./assets/img/rs_school_js.svg" width="86" height="32" alt="RS School">
+        </a>
+    </footer>
 
 </body>
 
