@@ -6,6 +6,7 @@ body {
 
 .page-body {
     min-height: 100%;
+    width: 1200px;
     margin: 0 auto;
     padding: 0;
 }
@@ -138,6 +139,7 @@ h2 {
 
 .right-side {
     background-color: white;
+    width: 800px;
 }
 
 .right-side section {
