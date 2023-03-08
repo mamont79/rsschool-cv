@@ -124,28 +124,28 @@
                 <h2 class="section-title">Code example</h2>
                 <div class="code-ex">
                     <code>
-    def make_model(degree, alpha=0, penalty=None):<Br>
-    # linear regression<Br>
-    if alpha == 0:<Br>
-        regressor = LinearRegression()<Br>
+    def make_model(degree, alpha=0, penalty=None):<br>
+    # linear regression<br>
+    if alpha == 0:<br>
+        regressor = LinearRegression()<br>
     # lasso regression",<Br>
     elif penalty == 'L1':<Br>
-        regressor = Lasso(alpha=alpha, random_state=SEED, max_iter=50000)<Br>
-    # ridge regression",<Br>
-    elif penalty == 'L2':<Br>
-        regressor = Ridge(alpha=alpha, random_state=SEED, max_iter=50000) <Br>
+        regressor = Lasso(alpha=alpha, random_state=SEED, max_iter=50000)<br>
+    # ridge regression",<br>
+    elif penalty == 'L2':<br>
+        regressor = Ridge(alpha=alpha, random_state=SEED, max_iter=50000) <br>
     
-            <Br>
-    return Pipeline([<Br>
-        ('pol', PolynomialFeatures(degree, include_bias=(degree == 0))),<Br>
-        ('sca', StandardScaler()),<Br>
-        ('reg', regressor)<Br>
-    ])<Br>
-        <Br>
-display(make_model(2))<Br>
-display(make_model(2, penalty='L1', alpha=0.1))<Br>
-display(make_model(2, penalty='L2', alpha=0.1))<Br>
-<Br>
+            <br>
+    return Pipeline([<br>
+        ('pol', PolynomialFeatures(degree, include_bias=(degree == 0))),<br>
+        ('sca', StandardScaler()),<br>
+        ('reg', regressor)<br>
+    ])<br>
+        <br>
+display(make_model(2))<br>
+display(make_model(2, penalty='L1', alpha=0.1))<br>
+display(make_model(2, penalty='L2', alpha=0.1))<br>
+<br>
 </code>
                 </div>
 
