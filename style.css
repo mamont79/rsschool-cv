@@ -97,8 +97,7 @@ ul {
 
 .photo-img {
   width: 100%;
-  border-radius: 50%;
-  top: -50%;
+
   margin: 0 auto;
 }
 
@@ -119,7 +118,7 @@ h2 {
 .section-title {
   position: relative;
   margin: 0;
-  margin-bottom: 36px;
+  margin-bottom: 25px;
   padding-left: 60px;
   font-size: 24px;
   line-height: 36px;
@@ -184,6 +183,11 @@ h2 {
   padding-top: 10px;
 }
 
+.project-link {
+  text-decoration: underline;
+  color: black;
+}
+
 .right-side li {
   padding-bottom: 5px;
 }
@@ -220,7 +224,7 @@ h2 {
 .code-adr {
   margin: 30px 60px 30px 60px;
   padding-top: 20px;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
   color: black;
 }
