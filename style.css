@@ -155,9 +155,19 @@ h2 {
   margin-bottom: 10px;
 }
 
-.phone-number {
+.email-link,
+.phone-number,
+.linkedin-link {
   text-decoration: none;
   color: white;
+  transition: all 0.5s;
+}
+
+.email-link:hover,
+.phone-number:hover,
+.linkedin-link:hover {
+  color: aquamarine;
+  text-decoration: underline;
 }
 
 .education {
